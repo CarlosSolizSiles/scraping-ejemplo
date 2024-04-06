@@ -16,10 +16,11 @@ const jsdom = require("jsdom");
 
         const data = [];
 
-        // Seleccionamos los titulos y lo mostramos en consola
+        // Seleccionamos los tbody
         const $TrAll = document.querySelectorAll(
             "#billetes > table > tbody  tr"
         );
+
         $TrAll.forEach((element) => {
             data.push({
                 tipo: element.children[0].innerHTML,
@@ -27,6 +28,7 @@ const jsdom = require("jsdom");
                 venta: element.children[2].innerHTML,
             });
         });
+
         console.log(data);
 
         // Cerramos el puppeteer

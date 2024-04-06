@@ -1,0 +1,15 @@
+{
+    "name": "scraping",
+    "module": "ind",
+    "type": "module",
+    "scripts": {
+        "dev": "bun index.js"
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "dependencies": {
+        "jsdom": "^24.0.0",
+        "puppeteer": "^22.6.3"
+    }
+}
