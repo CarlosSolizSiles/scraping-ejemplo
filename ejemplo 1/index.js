@@ -1,5 +1,5 @@
-const puppeteer = require("puppeteer");
-const jsdom = require("jsdom");
+import puppeteer from "puppeteer";
+import jsdom from "jsdom";
 
 (async () => {
     try {

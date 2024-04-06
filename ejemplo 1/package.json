@@ -1,12 +1,11 @@
 {
-    "name": "scraping",
+    "name": "ejemplo_1",
     "module": "ind",
+    "main": "index.js",
     "type": "module",
     "scripts": {
-        "dev": "bun index.js"
-    },
-    "devDependencies": {
-        "@types/bun": "latest"
+        "dev-bun": "bun index.js",
+        "dev-node": "node index.js"
     },
     "dependencies": {
         "jsdom": "^24.0.0",
