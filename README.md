@@ -1,8 +1,8 @@
 # scraping
 
-To install dependencies:
-
 *In CMD*
+
+To install dependencies:
 
 ```bash
 npm install
