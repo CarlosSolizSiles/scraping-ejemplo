@@ -2,7 +2,7 @@
 
 To install dependencies:
 
-*In bun*
+*In CMD*
 
 ```bash
 npm install
